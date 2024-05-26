@@ -7,7 +7,7 @@
 
 int main()
 {
-    Model m{ "./obj/head.obj" };
+    Model m{ "./assets/head.obj" };
     Renderer r{ 800, 600 };
     r.renderWireframe(m);
     r.saveImage("head.png");
